@@ -11,6 +11,13 @@ public class Operation {
     private String date;
     private String description;
 
+    public Operation(String id, String name, String date, String description) {
+        this.id = id;
+        this.name = name;
+        this.date = date;
+        this.description = description;
+    }
+
     // Getters and Setters
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
